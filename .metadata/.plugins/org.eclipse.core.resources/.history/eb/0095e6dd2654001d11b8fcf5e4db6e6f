@@ -1,0 +1,12 @@
+package 전략패턴;
+
+public class Employee extends Person {
+	private DoWork work = new DoWork();
+	private EatWellStory wellStory = new EatWellStory();
+	@Override
+	public void doSomething() {
+		work.doSomething();
+		wellStory.doSomething();
+	}
+
+}

@@ -1,0 +1,13 @@
+package 전략패턴1;
+
+public class Person {
+	private String name;
+	private DoSomething doSeomething;
+	private Eating eating;
+	public void setDoSeomething(DoSomething doSeomething) {
+		this.doSeomething = doSeomething;
+	}
+	public void setEating(Eating eating) {
+		this.eating = eating;
+	}
+}

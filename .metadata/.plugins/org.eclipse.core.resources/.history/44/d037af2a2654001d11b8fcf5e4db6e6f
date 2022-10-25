@@ -1,0 +1,12 @@
+package 전략패턴;
+
+public class SSAFY extends Person {
+	private DoStudy study = new DoStudy();
+	private EatWellStory wellStory = ne WellStory();
+	@Override
+	public void doSomething() {
+		study.doSomething();
+		wellStory.doSomething();
+	}
+
+}

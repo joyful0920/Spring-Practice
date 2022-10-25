@@ -1,0 +1,10 @@
+package com.ssafy.spring;
+
+public class Desktop implements Computer {
+
+	@Override
+	public String getIntro() {
+		return "데스크탑!";
+	}
+
+}

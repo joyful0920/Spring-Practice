@@ -1,0 +1,5 @@
+// 메이븐 : 빌드 관리 도구, 라이브러리 세팅..
+// 프로젝트 우클릭 -> convert -> conver to Maven Project
+public class Test {
+
+}

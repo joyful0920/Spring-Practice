@@ -1,0 +1,10 @@
+
+public class Laptop implements Computer {
+
+	@Override
+	public String getIntro() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

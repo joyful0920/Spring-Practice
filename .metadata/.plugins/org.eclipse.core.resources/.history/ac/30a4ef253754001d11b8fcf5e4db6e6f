@@ -1,0 +1,9 @@
+
+public class Laptop implements Computer {
+
+	@Override
+	public String getIntro() {
+		return "·¦Å¾!";
+	}
+	
+}

@@ -1,0 +1,10 @@
+package 전략패턴;
+
+public class Employee extends Person{
+	private Dowork work;
+	@Override
+	public void doSomething() {
+		
+	}
+
+}

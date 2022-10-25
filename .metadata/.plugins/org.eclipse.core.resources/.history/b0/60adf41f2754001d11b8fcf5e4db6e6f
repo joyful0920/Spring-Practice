@@ -1,0 +1,11 @@
+package 전략패턴;
+
+public class Test {
+
+	public static void main(String[] args) {
+		DoWork work = new DoWork();
+		Person p = new Employee(work);
+		p.daily();
+	}
+
+}

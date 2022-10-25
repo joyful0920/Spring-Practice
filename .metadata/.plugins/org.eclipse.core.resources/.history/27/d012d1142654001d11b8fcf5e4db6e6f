@@ -1,0 +1,11 @@
+package 전략패턴;
+
+public class SSAFY extends Person {
+	private DoStudy study;
+	private EatWellSTory wellStory;
+	@Override
+	public void doSomething() {
+		
+	}
+
+}

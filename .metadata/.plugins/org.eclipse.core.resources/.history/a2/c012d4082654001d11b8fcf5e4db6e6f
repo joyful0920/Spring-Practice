@@ -1,0 +1,11 @@
+package 전략패턴;
+
+public class SSAFY extends Person {
+
+	@Override
+	public void doSomething() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

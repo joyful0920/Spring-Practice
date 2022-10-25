@@ -1,0 +1,12 @@
+package com.ssafy.spring;
+
+public class Worker {
+	private Computer computer;
+	public Worker() {
+//		computer = new Desktop();
+	}
+	public void setComputer(Computer computer) {
+		this.computer = computer;
+	}
+	public void doWork()
+}

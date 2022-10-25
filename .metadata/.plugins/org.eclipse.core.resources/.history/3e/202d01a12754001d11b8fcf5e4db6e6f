@@ -1,0 +1,16 @@
+package 전략패턴;
+
+public class Employee extends Person {
+	private DoWork work;
+	private EatWellStory wellStory = new EatWellStory();
+	// 생성자에 객체를 넣어주면 Constructor Injection
+	public Employee(DoWork work) {
+		this.work = work;
+	}
+	@Override
+	public void doSomething() {
+		work.doSomething();
+		wellStory.doSomething();
+	}
+
+}
